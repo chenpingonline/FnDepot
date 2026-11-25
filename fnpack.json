@@ -1,0 +1,162 @@
+{
+  "schema_version": "2",
+  "source_info": {
+    "name": "Chenping 的飞牛应用源",
+    "author": "chenpingonline",
+    "homepage": "https://github.com/chenpingonline/FnDepot"
+  },
+  "apps": {
+    "clash-for-fnos": {
+      "display_name": "Clash for fnos",
+      "desc": "fnOS 原生 Clash/Mihomo 管理器，可管理订阅、代理节点与分流规则。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "https://raw.githubusercontent.com/chenpingonline/Clash-for-fnos/v1.7.2/fpk/ICON_256.PNG",
+      "readme_url": "https://raw.githubusercontent.com/chenpingonline/Clash-for-fnos/v1.7.2/README.md",
+      "bug_report_url": "https://github.com/chenpingonline/Clash-for-fnos/issues",
+      "maintainer": "chenping",
+      "maintainer_url": "https://github.com/chenpingonline/Clash-for-fnos",
+      "run_as": "root",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "1.7.2": {
+          "updated_at": "2026-11-25T11:05:35Z",
+          "os_min_version": "1.1.3100",
+          "packages": {
+            "all": {
+              "download_url": "https://github.com/chenpingonline/Clash-for-fnos/releases/download/v1.7.2/Clash.for.fnos_1.7.2_all.fpk",
+              "sha256": "864727d193c9dd19f634eab4b1b80ee08410c351678f2de6f612dd7dbf43bed5",
+              "size": 34459653
+            },
+            "arm": {
+              "download_url": "https://github.com/chenpingonline/Clash-for-fnos/releases/download/v1.7.2/Clash.for.fnos_1.7.2_arm64.fpk",
+              "sha256": "49df4fab9e9c08493b7d96a4d1c435628cc55facd408a6c4a3f71543d8af1ef0",
+              "size": 42539572
+            },
+            "x86": {
+              "download_url": "https://github.com/chenpingonline/Clash-for-fnos/releases/download/v1.7.2/Clash.for.fnos_1.7.2_x86_64.fpk",
+              "sha256": "367a6aa24d33248e10df64066c890b3d07b75472927e6e1576294cd28545c87c",
+              "size": 45879170
+            }
+          }
+        }
+      }
+    },
+    "nginx-web": {
+      "display_name": "nginx-web",
+      "desc": "可视化管理 Nginx 的 HTTP(S) 反向代理、TCP/UDP 转发、SSL 证书和负载均衡。此源提供标准版。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "https://raw.githubusercontent.com/chenpingonline/nginx-web-fnos/v0.5.0/packaging/fnos/ICON_256.PNG",
+      "readme_url": "https://raw.githubusercontent.com/chenpingonline/nginx-web-fnos/v0.5.0/README.md",
+      "bug_report_url": "https://github.com/chenpingonline/nginx-web-fnos/issues",
+      "maintainer": "chenping",
+      "maintainer_url": "https://github.com/chenpingonline/nginx-web-fnos",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "0.5.0": {
+          "updated_at": "2026-11-25T12:16:13Z",
+          "os_min_version": "1.1.3100",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/chenpingonline/nginx-web-fnos/releases/download/v0.5.0/nginx-web-0.5.0-standard-arm64.fpk",
+              "sha256": "785c220dec88b0c42df41ea628d4aca5f052961a7cb6df0c2d4296f42f6af1ce",
+              "size": 16735378
+            },
+            "x86": {
+              "download_url": "https://github.com/chenpingonline/nginx-web-fnos/releases/download/v0.5.0/nginx-web-0.5.0-standard-x86_64.fpk",
+              "sha256": "cb28a94143009b73ebe150912d15b7e68bbf754d88d70ec20f3840e612571cd0",
+              "size": 17884553
+            }
+          }
+        }
+      }
+    },
+    "quarkdrive": {
+      "display_name": "QuarkDrive",
+      "desc": "飞牛 NAS 原生夸克网盘下载器，支持个人网盘和分享链接下载（实验性版本）。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "https://raw.githubusercontent.com/chenpingonline/quark-for-fnos/v0.1.17/packaging/fnos/ICON_256.PNG",
+      "readme_url": "https://raw.githubusercontent.com/chenpingonline/quark-for-fnos/v0.1.17/README.md",
+      "bug_report_url": "https://github.com/chenpingonline/quark-for-fnos/issues",
+      "maintainer": "QuarkDrive Community",
+      "maintainer_url": "https://github.com/chenpingonline/quark-for-fnos",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "0.1.17": {
+          "updated_at": "2026-10-15T12:29:41Z",
+          "os_min_version": "1.1.3100",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/chenpingonline/quark-for-fnos/releases/download/v0.1.17/QuarkDrive_0.1.17_arm64.fpk",
+              "sha256": "a24f5f22e9ab5d1a4c438a9593f3b5e638688236c422a346f3d2d897aa3a3120",
+              "size": 3046342
+            },
+            "x86": {
+              "download_url": "https://github.com/chenpingonline/quark-for-fnos/releases/download/v0.1.17/QuarkDrive_0.1.17_x86_64.fpk",
+              "sha256": "ea0721c044f36d71c49fca21cdacd919fb37853475b743c1c8b43e651a4d89e5",
+              "size": 3315040
+            }
+          }
+        }
+      }
+    },
+    "remote-desktop": {
+      "display_name": "远程桌面",
+      "desc": "通过浏览器连接 RDP 和 VNC 远程桌面，支持多会话切换、剪贴板共享和局域网唤醒。",
+      "platform": [
+        "x86",
+        "arm"
+      ],
+      "categories": [
+        "系统工具"
+      ],
+      "icon_url": "https://raw.githubusercontent.com/chenpingonline/remote-desktop-fnos/v0.3.3/packaging/remote-desktop/ICON_256.PNG",
+      "readme_url": "https://raw.githubusercontent.com/chenpingonline/remote-desktop-fnos/v0.3.3/README.md",
+      "bug_report_url": "https://github.com/chenpingonline/remote-desktop-fnos/issues",
+      "maintainer": "chenping",
+      "maintainer_url": "https://github.com/chenpingonline/remote-desktop-fnos",
+      "run_as": "package",
+      "install_type": "",
+      "is_docker": false,
+      "releases": {
+        "0.3.3": {
+          "updated_at": "2026-11-25T12:59:33Z",
+          "packages": {
+            "arm": {
+              "download_url": "https://github.com/chenpingonline/remote-desktop-fnos/releases/download/v0.3.3/remote-desktop-0.3.3-arm.fpk",
+              "sha256": "569ac33772b6993f11de832b41c5d7af6d9ff0cd86656286c1480de5f6e31c86",
+              "size": 74817236
+            },
+            "x86": {
+              "download_url": "https://github.com/chenpingonline/remote-desktop-fnos/releases/download/v0.3.3/remote-desktop-0.3.3-x86.fpk",
+              "sha256": "4f47722ec14b410395322f7be1212d8bac76ad005d0d8e92760b10b0d642f561",
+              "size": 80640669
+            }
+          }
+        }
+      }
+    }
+  }
+}
