@@ -58,8 +58,8 @@
       "categories": [
         "系统工具"
       ],
-      "icon_url": "https://raw.githubusercontent.com/chenpingonline/nginx-web-fnos/v0.5.0/packaging/fnos/ICON_256.PNG",
-      "readme_url": "https://raw.githubusercontent.com/chenpingonline/nginx-web-fnos/v0.5.0/README.md",
+      "icon_url": "https://raw.githubusercontent.com/chenpingonline/nginx-web-fnos/v0.5.2/packaging/fnos/ICON_256.PNG",
+      "readme_url": "https://raw.githubusercontent.com/chenpingonline/nginx-web-fnos/v0.5.2/README.md",
       "bug_report_url": "https://github.com/chenpingonline/nginx-web-fnos/issues",
       "maintainer": "chenping",
       "maintainer_url": "https://github.com/chenpingonline/nginx-web-fnos",
@@ -67,19 +67,19 @@
       "install_type": "",
       "is_docker": false,
       "releases": {
-        "0.5.0": {
-          "updated_at": "2026-11-25T12:16:13Z",
+        "0.5.2": {
+          "updated_at": "2026-11-26T03:54:59Z",
           "os_min_version": "1.1.3100",
           "packages": {
             "arm": {
-              "download_url": "https://github.com/chenpingonline/nginx-web-fnos/releases/download/v0.5.0/nginx-web-0.5.0-standard-arm64.fpk",
-              "sha256": "785c220dec88b0c42df41ea628d4aca5f052961a7cb6df0c2d4296f42f6af1ce",
-              "size": 16735378
+              "download_url": "https://github.com/chenpingonline/nginx-web-fnos/releases/download/v0.5.2/nginx-web-0.5.2-standard-arm64.fpk",
+              "sha256": "4e380c096beefd0218ec86e34c13393501980937991c282ba6157009ec16dc5b",
+              "size": 16756791
             },
             "x86": {
-              "download_url": "https://github.com/chenpingonline/nginx-web-fnos/releases/download/v0.5.0/nginx-web-0.5.0-standard-x86_64.fpk",
-              "sha256": "cb28a94143009b73ebe150912d15b7e68bbf754d88d70ec20f3840e612571cd0",
-              "size": 17884553
+              "download_url": "https://github.com/chenpingonline/nginx-web-fnos/releases/download/v0.5.2/nginx-web-0.5.2-standard-x86_64.fpk",
+              "sha256": "9b0ecda82f38b64d2e02cb9af5611f4f8af55c4247bbb304dd8db25686b519a1",
+              "size": 17910794
             }
           }
         }

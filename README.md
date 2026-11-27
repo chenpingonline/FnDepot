@@ -9,7 +9,7 @@ https://github.com/chenpingonline/FnDepot
 | 应用 | 收录版本 |
 | --- | --- |
 | [Clash for fnos](https://github.com/chenpingonline/Clash-for-fnos) | [1.7.2](https://github.com/chenpingonline/Clash-for-fnos/releases/tag/v1.7.2) |
-| [nginx-web](https://github.com/chenpingonline/nginx-web-fnos) | [0.5.0](https://github.com/chenpingonline/nginx-web-fnos/releases/tag/v0.5.0) |
+| [nginx-web](https://github.com/chenpingonline/nginx-web-fnos) | [0.5.2](https://github.com/chenpingonline/nginx-web-fnos/releases/tag/v0.5.2) |
 | [QuarkDrive](https://github.com/chenpingonline/quark-for-fnos) | [0.1.17](https://github.com/chenpingonline/quark-for-fnos/releases/tag/v0.1.17) |
 | [远程桌面](https://github.com/chenpingonline/remote-desktop-fnos) | [0.3.3](https://github.com/chenpingonline/remote-desktop-fnos/releases/tag/v0.3.3) |
 
